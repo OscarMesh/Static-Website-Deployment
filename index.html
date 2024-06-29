@@ -4,11 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oscar</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
 
-    <link rel="stylesheet" href="./style.css" />
+      html {
+        font-size: clmap(32%, 62.5%, 70%);
+      }
+
+      body {
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        border: 1px solid gray;
+        padding: 7% 8%;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .card tr {
+        display: flex;
+        gap: 2;
+      }
+
+      .card tr td:first-child {
+        color: gray;
+        font-weight: bold;
+        width: 50%;
+      }
+
+      .card tr td:last-child {
+        text-align: right;
+        margin-left: 2rem;
+      }
+    </style>
   </head>
   <body>
     <div class="card">
+      <h2>HNG Internship</h2>
+      <a href="https://hng.tech"> https://hng.tech </a>
       <table>
         <tbody>
           <tr>
